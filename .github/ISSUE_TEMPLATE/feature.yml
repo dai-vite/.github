@@ -1,0 +1,23 @@
+name: Richiesta
+description: Una funzione nuova o un miglioramento
+labels: ["type:feature", "status:needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Il problema
+      description: Cosa non si riesce a fare oggi, e per chi è un problema.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: La proposta
+      description: Come immagini la soluzione (facoltativo, ma aiuta).
+  - type: textarea
+    id: done
+    attributes:
+      label: Quando è fatta
+      description: Come si verifica che la richiesta è soddisfatta.
+    validations:
+      required: true

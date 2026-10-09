@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Domande e supporto
+    url: "https://github.com/dai-vite/.github/blob/main/SUPPORT.md"
+    about: Dove chiedere aiuto senza aprire una issue.
+  - name: Vulnerabilità di sicurezza
+    url: "https://github.com/dai-vite/.github/blob/main/SECURITY.md"
+    about: Non aprire issue pubbliche, segui questa procedura.
