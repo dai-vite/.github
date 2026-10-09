@@ -16,7 +16,8 @@ persone di organizzazioni diverse. Un repository può aggiungere regole proprie 
 
 ## Prima di cominciare
 
-- Il README del repository dice a cosa serve, chi ne è responsabile e come si avvia.
+- Il README del repository dice a cosa serve; i referenti di ogni attività sono nel piano del
+  progetto condiviso fra i partner.
 - Per un lavoro non banale apri prima una issue (modulo «Bug» o «Richiesta»).
 
 ## Lingua
@@ -27,16 +28,15 @@ persone di organizzazioni diverse. Un repository può aggiungere regole proprie 
 
 ## Rami
 
-- Nome `tipo/descrizione-breve` (es. `feat/export-csv`) oppure `<attività>/<argomento>` quando
-  il ramo segue un'attività del progetto (es. `or1/data-ingestion`).
+- Nome `tipo/descrizione-breve` (es. `feat/export-csv`) oppure `<codice attività>/<argomento>`
+  quando il ramo segue un'attività del progetto (es. `1.1/acquisition-frequency`).
 - Minuscole e trattini; un ramo per argomento; si cancella dopo il merge (automatico).
 
 ## Commit
 
 Formato [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/):
 `<type>(<scope>): <summary>`, sommario **≤72 caratteri** all'imperativo, corpo sul **perché**,
-collegamento a issue e PR (`Closes #n`). Firma dei commit raccomandata (sul piano Free dei repo
-privati non si può imporre: disciplina e audit).
+collegamento a issue e PR (`Closes #n`). Firma dei commit raccomandata.
 
 ### Uso di strumenti AI
 
@@ -58,5 +58,5 @@ I messaggi di commit e le descrizioni delle PR **non contengono attribuzioni a s
 
 ## Segreti caricati per errore
 
-Avvisa subito chi è indicato in [SECURITY](SECURITY.md): il segreto va revocato, cancellare il
+Segnalalo come indicato in [SECURITY](SECURITY.md): il segreto va revocato, cancellare il
 file non basta.

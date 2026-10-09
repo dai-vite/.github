@@ -10,8 +10,8 @@ vedete qui è il profilo pubblico, con le regole comuni a tutti i progetti.
 - Ogni modifica passa da una pull request con un titolo in formato
   [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/); il merge è sempre
   squash, così la storia di `main` resta lineare e leggibile.
-- Le versioni seguono [SemVer](https://semver.org/lang/it/) e le note di rilascio sono generate
-  automaticamente dalle etichette delle pull request.
+- Il codice segue [SemVer](https://semver.org/lang/it/), i documenti da consegnare un tag per
+  attività e versione; le note di rilascio sono generate dalle etichette delle pull request.
 - Le regole complete per chi contribuisce sono in [CONTRIBUTING](https://github.com/dai-vite/.github/blob/main/CONTRIBUTING.md).
 
 ### Contatti

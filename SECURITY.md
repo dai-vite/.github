@@ -2,7 +2,8 @@
 
 ## Come segnalare una vulnerabilità
 
-**Non aprire una issue pubblica.** Avvisa in privato i referenti indicati nel profilo per i membri dell'org (se non sei membro, chi ti ha dato accesso al progetto), con:
+**Non aprire una issue pubblica.** Usa la segnalazione privata di GitHub: scheda **Security** di questo repository →
+**Report a vulnerability**. La vedono solo gli amministratori dell'org. Indica:
 
 - il repository e la versione (o il commit) interessati;
 - come riprodurre il problema;
@@ -13,5 +14,5 @@ correzione e concorderemo con te tempi e modi di un'eventuale divulgazione.
 
 ## Segreti caricati per errore
 
-Se un segreto (token, password, chiave) finisce in un repository, avvisa subito le stesse
-persone: il segreto va revocato, non basta cancellare il file.
+Se un segreto (token, password, chiave) finisce in un repository, segnalalo subito allo stesso
+modo: il segreto va revocato, non basta cancellare il file.
